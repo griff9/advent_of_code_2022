@@ -1,6 +1,6 @@
 import heapq
 
-with open("advent_of_code\inputs\input_1.txt", "r") as file:
+with open("input_1.txt", "r") as file:
     data = file.read()
 
 best = [0] * 3
