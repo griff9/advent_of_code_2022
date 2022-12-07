@@ -1,4 +1,4 @@
-with open("input_3.txt", "r") as file:
+with open("inputs\input_3.txt", "r") as file:
     data = file.read()
 data = data.split('\n')
 
