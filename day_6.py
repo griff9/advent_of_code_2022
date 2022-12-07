@@ -1,5 +1,5 @@
 
-with open("input_6.txt", "r") as file:
+with open("inputs\input_6.txt", "r") as file:
     data = file.read()
 
 def message_start(n) -> int:
