@@ -5,7 +5,7 @@ class Node:
         self.parent = parent
 
 
-with open("advent_of_code\inputs\input_7.txt", "r") as file:
+with open("inputs\input_7.txt", "r") as file:
     data = file.read()
 data = data.split("\n")
 list_1 = []
