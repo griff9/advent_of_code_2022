@@ -1,4 +1,4 @@
-with open("input_2.txt", "r") as file:
+with open("inputs\input_2.txt", "r") as file:
     data = file.read()
 
 ############################# Part 1
