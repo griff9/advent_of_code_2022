@@ -1,6 +1,6 @@
 import copy
 
-with open("input_5.txt", "r") as file:
+with open("inputs\input_5.txt", "r") as file:
     data = file.read()
 data = data.split('\n')
 
