@@ -19,7 +19,7 @@ for first_c, start, end, step_size in (0, 1, N - 1, 1), (M - 1, N - 2, 0, -1):
                 tall = grid[r][c]
 
 # up,down
-for first_r, end_r, start, end, step_size in (0, M - 1, 1, M - 1, 1), (N - 1, 0, N - 2, 0, -1):
+for first_r, start, end, step_size in (0, 1, M - 1, 1), (N - 1, N - 2, 0, -1):
     for c in range(1, N - 1):
         tall = grid[first_r][c]
         for r in range(start, end, step_size):
